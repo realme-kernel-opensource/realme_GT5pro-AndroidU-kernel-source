@@ -140,6 +140,8 @@
   __traceiter_android_vh_rwsem_opt_spin_finish
   __traceiter_android_vh_rwsem_opt_spin_start
   __traceiter_android_vh_rwsem_wake_finish
+  __traceiter_android_vh_adjust_alloc_flags
+  __traceiter_android_vh_adjust_kvmalloc_flags
   __traceiter_android_vh_sched_stat_runtime_rt
   __traceiter_android_vh_shrink_node_memcgs
   __traceiter_android_vh_sync_txn_recvd
@@ -157,6 +159,7 @@
   __traceiter_sched_stat_wait
   __traceiter_sched_waking
   __traceiter_task_rename
+  __traceiter_android_vh_tune_swappiness
   __traceiter_android_vh_test_clear_look_around_ref
   __tracepoint_android_rvh_post_init_entity_util_avg
   __tracepoint_android_rvh_rtmutex_force_update
@@ -213,9 +216,12 @@
   __tracepoint_android_vh_rwsem_opt_spin_finish
   __tracepoint_android_vh_rwsem_opt_spin_start
   __tracepoint_android_vh_rwsem_wake_finish
+  __tracepoint_android_vh_adjust_alloc_flags
+  __tracepoint_android_vh_adjust_kvmalloc_flags
   __tracepoint_android_vh_sched_stat_runtime_rt
   __tracepoint_android_vh_shrink_node_memcgs
   __tracepoint_android_vh_sync_txn_recvd
+  __tracepoint_android_vh_tune_swappiness
   __tracepoint_android_vh_task_blocks_on_rtmutex
   __tracepoint_android_vh_test_clear_look_around_ref
   __tracepoint_block_bio_queue
@@ -241,4 +247,9 @@
   wait_for_completion_killable_timeout
   wakeup_source_remove
   wq_worker_comm
+  mdmreason_set
+  __traceiter_android_vh_meminfo_proc_show
+  __tracepoint_android_vh_meminfo_proc_show
+  __traceiter_android_vh_tune_scan_type
+  __tracepoint_android_vh_tune_scan_type
   zero_pfn
